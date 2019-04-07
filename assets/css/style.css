@@ -1,0 +1,37 @@
+body{
+    width:960px;
+    background-color:#dddddd;
+}
+
+.name{
+    background-color:#4aaaa5;
+    height:20%;
+    color: aliceblue;
+    text-align: center;
+    width:20%;  
+}
+
+.tabs{
+    height:10%;
+}
+
+.about{
+    float:right;
+    margin:10px;
+}
+
+.portfolio{
+    float:right;
+    margin:10px;
+    border: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    padding: 4px;
+}
+
+.contact{
+    float:right;
+    margin:10px;
+}
