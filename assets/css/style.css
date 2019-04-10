@@ -4,15 +4,17 @@ body{
 }
 
 .name{
+    float:left;
     background-color:#4aaaa5;
-    height:20%;
     color: aliceblue;
     text-align: center;
-    width:20%;  
+    padding:10px;
+    width:25%;  
+    position:relative;
+    bottom:-30;
 }
 
-
-.about{
+.menu-item{
     float: right;
     color:#777777;
     margin:10px;
@@ -24,38 +26,9 @@ body{
     padding: 4px;
 }
 
-.portfolio{
-    float:right;
-    color:#777777;
-    margin:10px;
-    border: solid;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    padding: 4px;
-}
-
-.contact{
-    color:#777777;
-    margin:10px;
-    border: solid;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    padding: 4px;
-}
 .aside{
     float:right;
     flex: right;
-}
-
-.contatiner{
-    border-color: red;
-    border: solid;
-    border-width: 1px;
-    widows: 50%;   
 }
 
 .white-box{
@@ -72,10 +45,14 @@ body{
 
 .header{
     margin: 20px;
-    padding:10px;
+    padding:20px 10px 0px 10px;
     background-color:#ffffff;
-    height:10%; 
+    height:100px; 
 }
 
-#name{
+.menu-block{
+    position:relative;
+    bottom:-64px;
+    padding-bottom:0px;
+    padding-right:0px
 }
