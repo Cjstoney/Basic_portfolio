@@ -32,22 +32,24 @@ body{
 }
 
 .white-box{
-    display:inline-block;
     background-color:#ffffff;
     border:solid;
-    border-width:3px;
-    margin:20px;
+    border-width:1px;
+    margin:10px 20px 20px 20px;
     padding:10px;
     position:relative;
-    top:20px;
-    width:75%;
+    top:0px;
+    position:center;
+    width:958px;
+    
 }
 
 .header{
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     padding:20px 10px 0px 10px;
     background-color:#ffffff;
-    height:100px; 
+    height:100px;
+    width: 100%; 
 }
 
 .menu-block{
