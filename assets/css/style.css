@@ -8,10 +8,10 @@ body{
     background-color:#4aaaa5;
     color: aliceblue;
     text-align: center;
-    padding:10px;
+    padding:10px 10px 0px 10px;
     width:25%;  
     position:relative;
-    bottom:-30;
+    bottom:-10px;
 }
 
 .menu-item{
@@ -41,6 +41,7 @@ body{
     top:0px;
     position:center;
     width:958px;
+    height:500px;
     
 }
 
@@ -48,7 +49,7 @@ body{
     margin: 20px 20px 0px 20px;
     padding:20px 10px 0px 10px;
     background-color:#ffffff;
-    height:100px;
+    height:75px;
     width: 100%; 
 }
 
@@ -58,4 +59,19 @@ body{
     padding-bottom:0px;
     padding-right:0px
 }
+
+.about_me{
+    color: #4aaaa5;
+    text-align: center;
+    padding:10px;
+    width:18%;      
+}
+
+footer{
+    width: 960px;
+    height: 50px;
+    background:#666666;
+    margin: 20px 20px 20px 20px;
+}
+
 
