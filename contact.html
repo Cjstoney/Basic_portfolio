@@ -3,77 +3,67 @@
     <head>
         <meta charset="UTF-8">
 
-        <title>Camerone Stoney</title>
+        <title>About Me</title>
 
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+
+ 
     </head>
     <body>
-        <section class="header">
-            <div id="name" class="name">
-                    <h1>Camerone Stoney</h1>
-            </div>
-                <!--links to other pages-->
-                <div class="menu-block">
-                    <a class="menu-item" class="about" href="index.html">
-                        About
-                    </a>
-        
-                    <a class="menu-item" class="portfolio" href="portfolio.html">
-                        Portfolio
-                    </a>
-        
-                    <a class="menu-item" class="contact" href="contact.html" >
-                        Contact
-                    </a>
+        <!-- nav bar -->
+        <header id="masterhead">
+        <div class="container">
+            <a href="index.html" id="logo">Camerone Stoney</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Potfolio</a>
+            </nav>
+        </div>
+        </header>
 
-                </div>
-        
-                
-        </section>
-                <!--Contact Form page-->
-                <section class="white-box">
-                    <!-- Contact me -->
-                    <h2 class=about_me>Contact</h2>
-                    
-                    <div class="underline"></div>
-
-                    <div class="container">
-                        <form action="action_page.php">
-                            <!-- name line -->
-                            <div>
-                                <div>
-                            <label id="name" for="fname">Name</label>
-                                </div>
-                            <input type="text" id="fname" name="firstname" placename="Your name..">
-                            </div>
-                            <!-- email line -->
-                            <div>
-                                <div>
+        <!-- main container -->
+    <div id="main-container" class="container">
+        <section class="main_container">
+            <h1>Contact</h1>
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="your name here" required="required">
+                        </li>
+                        <li>
                             <label for="email">Email</label>
-                                </div>
-                            <input type="text" id="email" name="Email" placename="Your emai...">
-                            </div>
-                            <!-- message line -->
-                            <div>
-                                <div>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
                             <label for="message">Message</label>
-                                </div>
-                            <input type="text" id="message" name="message" placename="Your message...">
-                            </div>
-                        </form>
-                        <!--Submit button-->
-                    <button id="send">
-                        Send
-                    </button>
-                    </div>
-                </section>
-            <!-- footer -->
-        <footer>
+                            <textarea  id="name" name="name" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit">
+                </form>
+        </section>
 
-         </footer>
-                
-                
+            <!-- sidebar -->
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect With Me</h2>
+
+                <img src="assets/images/iconfinder_2018_social_media_popular_app_logo_linkedin_3225190.png" class="social" alt="linkedin">
+            </div>
+
+        </section>
+    </div>
+
+    <!-- sidebar -->
+    <footer>
+        <div class="container">
+            &copy: Copyright 2019 Camerone Stoney
+        </div>
+    </footer>
     </body>
 
 </html>
